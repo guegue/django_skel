@@ -6,8 +6,8 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     # Examples:
-    # url(r'^$', 'example_org.views.home', name='home'),
-    # url(r'^example_org/', include('example_org.foo.urls')),
+    # url(r'^$', 'views.home', name='home'),
+    # url(r'^/', include('foo.urls')),
 
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
