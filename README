@@ -5,3 +5,4 @@ Esqueleto para un proyecto en Django
 - chown -R apache:apache data
 - cp *.conf /etc/httpd/conf.d/
 - service httpd reload
+python
